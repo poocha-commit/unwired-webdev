@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'New Amsterdam',sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.grid-container > li {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+body{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #15182b;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ margin: auto;
+}
+.logo a{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    align-items: flex-start;
+}
+.nav-links{
+    display: flex;
+    align-items: center ;
+    /* flex-direction: row; */
+background:#15182b;
+padding: 20px 15px;
+
+
+
+}
+.nav-links li{
+    list-style: none;
+    margin: 0 12px;
+  }
+  .nav-links li a{
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+  }
+
+  .nav-links li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #7a0d13;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+  }
+  .nav-links li a:hover:before{
+    width: 100%;
+  }
+
+.nav-links li.center a:before{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.footer-basic{
+  color:#fff;
+  background-color: #7a0d13;
+  position: fixed;
+    margin-top: 90%;
+  height: 100 ;
+  width: 100%;
+  
+padding:40px 0;
+}
+
+.footer-basic ul{
+  padding:0;
+  list-style: none;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  
+}
+.footer-basic li {
+  padding:0 0;
+  font-size: 15px;
+  font-family:'Montserrat',sans-serif;  
+}
+
+.footer-basic ul a {
+  color: #fff;;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .copyright {
+  text-align: center;}
