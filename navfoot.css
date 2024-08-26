@@ -23,8 +23,8 @@
 
 body{
     height: 100px;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: center;
     background-color: #15182b;
 }
@@ -35,6 +35,7 @@ body{
  height: 100%;
  max-width: 90%;
  margin: auto;
+ position:sticky;
 }
 .logo a{
     color: #fff;
@@ -90,27 +91,57 @@ padding: 20px 15px;
 .footer-basic{
   color:#fff;
   background-color: #7a0d13;
-  position: fixed;
-    margin-top: 90%;
-  height: 100 ;
+  position: absolute;
+    margin-top:100%;
+    
+  height:auto ;
   width: 100%;
-  
-padding:40px 0;
+  right:15px;
+padding:20px 0 10px 0px;
 }
 
 .footer-basic ul{
   padding:0;
   list-style: none;
-  text-align: center;
+  padding: 20px 10px 20px 30px;
   font-size: 10px;
   line-height: 1.6;
   margin-bottom: 0;
   
 }
 .footer-basic li {
-  padding:0 0;
+
+  padding:0 0 0 50px;
+  text-align: left;
   font-size: 15px;
+  max-width: 20em;
   font-family:'Montserrat',sans-serif;  
+  display: inline-block;}
+
+/* 
+.footer-basic ul li ._1{
+  position: relative;
+
+}
+.footer-basic ul li ._2{
+  position: relative;
+  right:20px;
+  
+}
+.footer-basic ul li ._3{
+  position: relative;
+  
+} */
+.footer-basic li img{
+width:200px;
+height:200px;
+border-radius: 1px;
+overflow: hidden;
+
+}
+/* 
+.list-inline li {
+align-items: center;
 }
 
 .footer-basic ul a {
@@ -121,6 +152,6 @@ padding:40px 0;
 
 .footer-basic ul a:hover {
   opacity:1;
-}
+} */
 .footer-basic .copyright {
-  text-align: center;}
+  text-align: center;} 
