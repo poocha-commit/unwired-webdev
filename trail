@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Unwired</title>
+    <link href="navfoot.css" rel="stylesheet" type="text/css">
+    <link href="body.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .background {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Team Unwired</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="background">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to Team Unwired, a passionate and innovative club at NIT Calicut dedicated to the design, engineering, and racing of high-performance vehicles. Comprised of talented students from diverse engineering backgrounds, our team works tirelessly to build cutting-edge racing cars that push the limits of speed and performance. With a focus on both technical excellence and teamwork, we participate in prestigious competitions, showcasing our skills and creativity on the race track. Our mission is to foster a spirit of collaboration and ingenuity while inspiring future engineers to explore the exciting world of motorsports. Join us as we accelerate towards our next challenge and drive towards victory!</p>
+        </section>
+
+  
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <div class="card">
+                <h3>Annual Racing Competition</h3>
+                <p>Date: June 10, 2024</p>
+                <p>Join us as we compete in the prestigious annual racing competition.</p>
+            </div>
+            <div class="card">
+                <h3>Engineering Workshop</h3>
+                <p>Date: July 15, 2024</p>
+                <p>A hands-on workshop where we share our knowledge about vehicle engineering.</p>
+            </div>
+            <!-- Add more event cards as needed -->
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please reach out to us at: <a href="mailto:teamunwired@example.com">teamunwired@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Team Unwired, NIT Calicut. All rights reserved.</p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

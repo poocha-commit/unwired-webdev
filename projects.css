@@ -2,6 +2,7 @@
     --primary-color:#15182b;
     --background-color: #ffffff;
     --font: sans-serif;
+    
   }
   
   * {
@@ -19,6 +20,7 @@
     height: 100px;
     width: 200px;
   }
+  
   /* Timeline Container */
   .timeline {
     background: var(--primary-color);
@@ -112,8 +114,13 @@
   .title {
     color:#c01f13;
     position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  
+  .info p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
   /* Timeline dot  */
   .title::before {
     content: "";
